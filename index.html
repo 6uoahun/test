@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>오늘의 청춘 BGM</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="wrap">
+    <p class="eyebrow">YOUTH DAY PLAYLIST</p>
+    <h1>오늘의 청춘 BGM</h1>
+    <p class="intro">내가 골라둔 노래 중에서<br>오늘의 한 곡을 랜덤으로 뽑아보세요.</p>
+
+    <section class="card" aria-live="polite">
+      <div class="disc">♪</div>
+      <p class="label">TODAY'S SONG</p>
+      <h2 id="songTitle">노래를 뽑아보세요</h2>
+      <p id="artist">당신의 오늘을 위한 한 곡</p>
+      <p id="message" class="message">어떤 노래가 나올까요?</p>
+
+      <div id="playerWrap" class="player" hidden>
+        <iframe id="youtubePlayer"
+          title="YouTube 음악 플레이어"
+          src=""
+          allow="autoplay; encrypted-media; picture-in-picture"
+          allowfullscreen></iframe>
+      </div>
+
+      <button id="drawButton">🎲 오늘의 노래 뽑기</button>
+      <button id="againButton" class="secondary" hidden>↻ 다른 노래 뽑기</button>
+    </section>
+
+    <p class="count" id="count"></p>
+    <footer>MY YOUTH • RANDOM MUSIC</footer>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
