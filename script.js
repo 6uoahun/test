@@ -8,7 +8,7 @@ const songs = [
   {
     title: "한 페이지가 될 수 있게",
     artist: "DAY6",
-    message: "지금의 순간도 언젠가는 한 페이지가 될 거예요.",
+    message: "지금 이 순간이 다시 넘겨볼 수 있는 한 페이지가 될 수 있게",
     youtube: "https://www.youtube.com/watch?v=vnS_jn2uibs"
   },
   {
